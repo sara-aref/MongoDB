@@ -26,19 +26,22 @@ Ans: ![UNFOUND](https://github.com/sara-aref/MongoDB/assets/147546807/ecb186ba-b
 ### 4. Retrieve the following data:
 ### ● All Students.
 
-Ans:
+Ans: db.student.find({})
 
 ### ● Student with specific First Name.
 
-Ans:
+Ans: db.student.find({"firstName" : "Sara"})
+
+![UNFOUND](https://github.com/sara-aref/MongoDB/assets/147546807/fdb0239a-0717-473c-90e8-60f711a125ac)
 
 ### ● Students who his First Name=Ahmed, or Last Name= Ahmed.
 
-Ans:
+Ans: db.student.find({$or: [{"firstName" : "Shimaa"}, {"lastName" : "Alaa"}]})
+![UNFOUND](https://github.com/sara-aref/MongoDB/assets/147546807/8ab92a07-3717-4c4e-a46d-489d704943bf)
 
 ### ● Students that their First name isn't "Ahmed".
 
-Ans:
+Ans: 
 
 ### ● Students with Age more than or equal to 21, and their faculty isn't NULL.
 
