@@ -46,7 +46,7 @@ Ans: db.student.find({"firstName" : {$ne : "Sara"}})
 
 ### ● Students with Age more than or equal to 21, and their faculty isn't NULL.
 
-Ans: db.student.find({$and : [{"age" : { $gte : 22}}, {"faculty" : {$ne : null}}]})
+Ans: db.student.find({$and : [{"age" : { $gte : 21}}, {"faculty" : {$ne : null}}]})
 
 ### ● Display student with specific First Name, and display his First Name, Last name, IsFired fields only.
 
