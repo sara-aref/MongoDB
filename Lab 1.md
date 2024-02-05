@@ -9,7 +9,7 @@ Ans: use FacultySystemDB
 ### ● Grades: An array of objects, each object has: CourseName, Grade, Pass (Boolean).
 ### ● IsFired: Boolean
 
-Ans: db.setCollection("student")
+Ans: db.createCollection("student")
 
 ### 3. Insert 3 (at least) documents in Student collection with different values.
 ### ● Try inserting one record each time
