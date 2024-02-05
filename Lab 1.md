@@ -14,14 +14,11 @@ Ans: db.createCollection("student")
 ### 3. Insert 3 (at least) documents in Student collection with different values.
 ### ● Try inserting one record each time
 
-Ans: ![UNFOUND](https://github.com/sara-aref/MongoDB/assets/147546807/6d086ba3-19dd-4f8f-85d4-204664f2ba1d)
-
+Ans: ![UNFOUND](https://github.com/sara-aref/MongoDB/assets/147546807/354a0042-b3a4-42b5-8ac0-0664141cb9ff)
 
 ### ● Try inserting many students using one insert statement.
 
-Ans: ![UNFOUND](https://github.com/sara-aref/MongoDB/assets/147546807/ecb186ba-bd75-4648-9b05-079ac3461106)
-
-![UNFOUND](https://github.com/sara-aref/MongoDB/assets/147546807/0f10a043-5e20-4e96-beb5-fa1cf1e5af5c)
+Ans: ![UNFOUND](https://github.com/sara-aref/MongoDB/assets/147546807/0b4f6a50-24fc-4a7b-8bae-87a9300f6ca4)
 
 ### 4. Retrieve the following data:
 ### ● All Students.
