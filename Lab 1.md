@@ -40,9 +40,13 @@ Ans: db.student.find({$or: [{"firstName" : "Shimaa"}, {"lastName" : "Alaa"}]})
 
 Ans: db.student.find({"firstName" : {$ne : "Sara"}})
 
+![UNFOUND](https://github.com/sara-aref/MongoDB/assets/147546807/77669524-d1e0-467a-841e-4daf23751d2e)
+
+![UNFOUND](https://github.com/sara-aref/MongoDB/assets/147546807/e7e410a8-3f68-4b95-8d26-8964d97faf0d)
+
 ### ● Students with Age more than or equal to 21, and their faculty isn't NULL.
 
-Ans: 
+Ans: db.student.find({$and : [{"age" : { $gte : 22}}, {"faculty" : {$ne : null}}]})
 
 ### ● Display student with specific First Name, and display his First Name, Last name, IsFired fields only.
 
