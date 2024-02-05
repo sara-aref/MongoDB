@@ -41,11 +41,11 @@ Ans: db.student.find({$or: [{"firstName" : "Shimaa"}, {"lastName" : "Alaa"}]})
 
 ### ● Students that their First name isn't "Ahmed".
 
-Ans: 
+Ans: db.student.find({"firstName" : {$ne : "Sara"}})
 
 ### ● Students with Age more than or equal to 21, and their faculty isn't NULL.
 
-Ans:
+Ans: 
 
 ### ● Display student with specific First Name, and display his First Name, Last name, IsFired fields only.
 
