@@ -19,7 +19,9 @@ Ans: ![UNFOUND](https://github.com/sara-aref/MongoDB/assets/147546807/6d086ba3-1
 
 ### ● Try inserting many students using one insert statement.
 
-Ans:
+Ans: ![UNFOUND](https://github.com/sara-aref/MongoDB/assets/147546807/ecb186ba-bd75-4648-9b05-079ac3461106)
+
+![UNFOUND](https://github.com/sara-aref/MongoDB/assets/147546807/0f10a043-5e20-4e96-beb5-fa1cf1e5af5c)
 
 ### 4. Retrieve the following data:
 ### ● All Students.
