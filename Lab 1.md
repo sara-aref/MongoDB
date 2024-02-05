@@ -50,20 +50,22 @@ Ans: db.student.find({$and : [{"age" : { $gte : 22}}, {"faculty" : {$ne : null}}
 
 ### ● Display student with specific First Name, and display his First Name, Last name, IsFired fields only.
 
-Ans:
+Ans: db.student.find({"firstName" : "Hadeer"}, {"firstName" : 1, "lastName" : 1, "IsFired" : 1, "_id" : 0})
+
+![UNFOUND](https://github.com/sara-aref/MongoDB/assets/147546807/448fab6f-6476-4737-abf0-9aa37abf6a23)
 
 ### 5. Update the student with specific FirstName, and change his LastName.
 
-Ans:
+Ans: db.student.updateOne({"firstName" : "Sara"} , {$set : {"lastName" : "Hassan"}})
 
 ### 6. Delete Fired students.
 
-Ans:
+Ans: db.student.deleteMany({"IsFired" : true})
 
 ### 7. Delete all students collection.
 
-Ans:
+Ans: db.student.drop()
 
 ### 8. Delete the whole DB.
 
-Ans:
+Ans: db.dropDatabase()
